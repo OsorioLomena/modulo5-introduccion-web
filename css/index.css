@@ -1,45 +1,74 @@
-#contenedor {
-    background-color: #11e611;
-    height: 750px;
-    width: 850px;
-    
+* h1{
+    color: blueviolet;
+    font-size: small;
+}
+
+#contenedor{
+
+  
 }
 
 #menu {
-    background-color: #c8d643;
+    background-color: #f6eff7;
     height: 750px;
     width: 295px;
-    display: inline-block;
-
+    display: block;
+    
 }
 
 #contenido {
-    background-color: #dd7927;
     height: 750px;
-    width: 300px;
+    width: 550px;
     display: inline-block;
+    margin-left: 300px;
+    margin-top: -760px;
+    display: block;
+         
+}
+#trending {
+    display: block;
+    height: 180px;
+    width: 550px;
+    margin-left: 0px;
 }
 
-#caja1 {
-    background-color: rgb(147, 147, 204);
-    display: block;
-    height: 295px;
-    width: 300px;
-    margin-top: 5px;
+#fotos1{
+    display: inline;
+    margin-left: 200px;
 }
+#robert {
+    display: block;
+    height: 180px;
+    width: 550px;
+    margin-left: 0px;
+}
+#herry {
+    display: block;
+    height: 180px;
+    width: 550px;
+    margin-left: 0px;
+}
+#caja1 {
+    background-color: #f6eff7;
+    height: 295px;
+    width: 265px;
+    padding-left: 30px ;
+    padding-top: 30px;
+    
+}
+
 
 #caja2 {
-    background-color: rgba(103, 103, 172, 0.76);
+    background-color: #f6eff7;
     height: 295px;
-    width: 400px;
+    width: 295px;
     margin-top: 5px;
     display: block;
 }
 
 #caja3 {
-    background-color: rgb(170, 57, 85);
-    height: 150px;
-    width: 300px;
-    margin-top: 5px;
+    background-color: #f6eff7;
+    height: 140px;
+    width: 295px;
     display: block;
 }
