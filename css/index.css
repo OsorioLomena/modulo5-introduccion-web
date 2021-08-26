@@ -1,74 +1,68 @@
-* h1{
-    color: blueviolet;
-    font-size: small;
-}
-
 #contenedor{
-
-  
+    /* background-color: #F5FF90; */
+    background-color: black;
+    height: 750px;
+    width: 850px;
 }
 
-#menu {
-    background-color: #f6eff7;
+#menu{
+    background-color: #D6FFB7;
     height: 750px;
     width: 295px;
-    display: block;
+    display: inline-block;
+    vertical-align: top;
     
 }
 
-#contenido {
+#contenido{
+    background-color: #FF9F1C;
     height: 750px;
     width: 550px;
     display: inline-block;
-    margin-left: 300px;
-    margin-top: -760px;
-    display: block;
-         
-}
-#trending {
-    display: block;
-    height: 180px;
-    width: 550px;
-    margin-left: 0px;
+    vertical-align: top;
 }
 
-#fotos1{
-    display: inline;
-    margin-left: 200px;
-}
-#robert {
-    display: block;
-    height: 180px;
-    width: 550px;
-    margin-left: 0px;
-}
-#herry {
-    display: block;
-    height: 180px;
-    width: 550px;
-    margin-left: 0px;
-}
-#caja1 {
-    background-color: #f6eff7;
-    height: 295px;
-    width: 265px;
-    padding-left: 30px ;
-    padding-top: 30px;
-    
-}
-
-
-#caja2 {
-    background-color: #f6eff7;
-    height: 295px;
+#perfil{
+    background-color: blanchedalmond;
     width: 295px;
-    margin-top: 5px;
-    display: block;
+    height: 250px;
 }
 
-#caja3 {
-    background-color: #f6eff7;
-    height: 140px;
+#opciones{
+    background-color: brown;
     width: 295px;
-    display: block;
+    height: 400px;
+}
+
+#configuracion{
+    background-color:cadetblue;
+    width: 295px;
+    height: 100px;
+}
+
+#foto{
+    background-color: aqua;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50%;
+    position: relative;
+    top: 35px;
+    /* right: 15px;
+    left: 15px;
+    bottom: 0px; */
+}
+
+#datos-usuario{
+    background-color:darkkhaki;
+    width: 140px;
+    height: 250px;
+    display: inline-block;
+}
+
+.opcion{
+    height: 50px;
+    text-align: center;
+    border: 1px solid black;
 }
