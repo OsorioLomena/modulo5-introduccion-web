@@ -66,3 +66,24 @@
     text-align: center;
     border: 1px solid black;
 }
+
+.opcion2{
+    border: dotted chartreuse;
+    height: 180px;
+    text-align: center;
+
+}
+    
+.filas{
+    height: 180px;
+    width: 95%;
+    background-color: white;
+    margin-bottom: 5px;
+  
+}
+    
+
+}
+
+
+    
