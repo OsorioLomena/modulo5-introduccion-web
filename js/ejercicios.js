@@ -87,3 +87,102 @@ console.log( usuarios[n-1].nombre)
  }else{
      console.log (" no hay datos")
  }
+
+ // estructura IF
+
+ // ii.- Dado dos variables numéricas a y b, deterinar cuál de los dos es mayor
+ 
+ a = 5
+ b = 5
+
+
+if(a > b) {
+    console.log("el numero mayor es: " + "a")
+}else if(a < b) {
+    console.log("el numero mayor es: " + "b")
+}else console.log("a es igual a b ")
+
+
+ // iii.- Dados dos variables numéricas a y b, determinar cuál es mayor, cuál es menor o si son iguales
+
+a = 5
+ b = 7
+
+
+if(a > b) {
+    console.log("el numero mayor es: " + "a")
+}else if(a < b) {
+    console.log("el numero mayor es: " + "b")
+}else console.log("a es igual a b ")
+
+
+// Dado un número n, determinar si es un número par
+
+
+a = 8
+b = 6
+
+
+if ((a%2) ==  0) {
+    console.log("el numero es par")
+} else { 
+    console.log("el numero es impar")
+} 
+
+
+// Dado un número n, determinar si es un número impar
+
+a = 5
+b = 6
+
+
+if ((a%2) ==  0) {
+    console.log("")
+} else { 
+    console.log("el numero es impar")
+} 
+
+// Realizar un software para el control del ingreso de pesonas al cine, donde las películas se dividen en las 
+//siguientes categorías:
+
+//let A // => Todo público
+//let B // => Desde 9 años
+//let C // => Desde 18 años
+//let D // => Desde 25 años
+
+// El usuario debe ingresar su edad y la categoría de la película que desea ver 
+// y el software deberá imprimir en consola si puede no ver la película según la clasificación.
+
+
+ //if(n < 18) {
+ //    console.log(" Pelicula NO apata. No puedes verla")
+ // } else {
+ //    console.log("Si puedes ver la pelicula")
+ //            }
+
+ // prompt("Texto descriptivo","Texto por defecto");
+
+
+// categoria = {"A", "B", "C", "D"}
+
+
+
+let edad = prompt("Ingrese su edad")
+let categoria = prompt("Ingrese Categoria A B C o D").toUpperCase()
+
+if (edad >= 0 && categoria == "A"||categoria == "B"||categoria == "C"||categoria == "D") {
+
+    if (categoria == "A"){
+        alert("Si puede ver la pelicula cat A")
+    } else if (categoria == "B" && edad >= 9){
+        alert("Si puede ver la pelicula cat B")
+    }else if (categoria == "C" && edad >= 18){
+            alert("SI puedes ver la pelicula categoria C")
+    }else if (categoria == "D" && edad >= 25){
+            alert("SI puedes ver la pelicula categoria D")
+    }else{ 
+            alert("PARA LA CASA")
+    }
+    }else{
+        alert("Edad o categoria invalida")
+}
