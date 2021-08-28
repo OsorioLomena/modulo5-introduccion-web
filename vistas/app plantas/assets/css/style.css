@@ -1,0 +1,62 @@
+@import url('http://fonts.googleapis.com/css?family=Roboto');
+#banner{
+    background-image: url("../img/banner-plantas.jpg");
+    height: 200px;
+}
+body{
+    background-color: rgb(220, 232, 240);
+    font-family: 'Roboto';
+    text-align: center;
+}
+th{
+    font-size: x-large; 
+    background-color: rgb(60, 100, 20);
+}
+table{
+    width: 70%;
+}
+#menu{
+    position: absolute;
+    right: 10px;
+    
+}
+
+.boton_1{
+    border-radius: 5px;
+    position: relative;
+    top: -10px;
+    margin-right: 5px;
+
+
+/*-- #margen_top{
+    margin-top: 30px;
+}--*/
+
+
+.centrado_borde{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: rgb(80, 133, 28);
+    border:black 2px;
+    font-size: 20px;
+    color:#dfdede;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.centrado_blanco{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    background-color: rgb(252, 253, 251);
+    border:black 2px;
+    font-size: 15px;
+    color:black;
+    font-weight: bold;
+    text-align: center;

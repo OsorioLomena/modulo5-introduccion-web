@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Registro</title>
+</head>
+<body>
+  <div id="banner">
+  </div>
+  <div id="menu">
+    <a href="./index.html" class="boton_1">INICIO</a>;
+    <a href="./quienes_somos.html" class="boton_1">QUIENES SOMOS</a>&nbsp;&nbsp;&nbsp;
+    <a href="./tabla.html" class="boton_1">LISTADO ALUMNOS</a>
+</div>
+
+    <form action="registro.php" method="post">
+        <h1>Formulario Registro</h1>
+        <label>Nombre: </label><input type="text" name="nombre" size="40"><br>
+        <label>Apellido:</label> <input type="text" name="nombre" size="40"><br>
+        <label>Fecha de nacimiento: </label><input type="date" name="nacido">
+        <p>Sexo:
+          <input type="radio" name="hm" value="h"> Hombre
+          <input type="radio" name="hm" value="m"> Mujer
+        </p>
+        <p>Email   : <input type="email" name="correo" size="40"></p>
+        <p>Teléfono: <input type="tel" name="telefono"></p>
+        <p>
+          <input type="submit" value="Registrarse">
+          <input type="reset" value="Borrar">
+        </p>
+      </form>
+</body>
+</html>
