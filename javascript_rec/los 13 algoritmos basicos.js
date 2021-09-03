@@ -74,11 +74,10 @@ console.log(resultado);
 //  (ej: para [-3,3,5,7] el número mayor (max) es 7). 
 
 function buscaMax(numArr){
-    var max = numArr[0]; // sets the maximum to the first value in the array
-    for (var i = 0; i < numArr.length; i++){ // for loop to examine each value in the array
-        // see if the next value is bigger than the maximum
-        if (numArr[i] > max){
-            // if it is, make it the new max
+    var max = numArr[0]; 
+    
+    for (var i = 0; i < numArr.length; i++){ 
+         if (numArr[i] > max){
             max = numArr[i];
         }
     }
@@ -86,7 +85,7 @@ function buscaMax(numArr){
 }
 
 var resultado = buscaMax(numArr);
-console.log(resultado);
+console.log([-3,3,5,7]);
 
 
 
