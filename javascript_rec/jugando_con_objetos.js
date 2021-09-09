@@ -8,9 +8,6 @@
 // ¿Cómo harías print/log del nombre del primer objeto?
 // ¿Cómo harías print/log del nombre y la edad de cada usuario utilizando un for loop? Tu output debería verse algo como esto
 // ¿Cómo harías para imprimir el nombre de los mayores de edad?
-// Michael - 37
-// John - 30
-// David - 27
 
 var users = [{name: "Michael", age:37}, {name: "John", age:30}, {name: "David", age:27}];
 
