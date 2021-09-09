@@ -131,7 +131,7 @@ function arrmenor(arr, Y) {
     var count = 0;
     for (var i = 0; i <= arr.length; i++){
         if (arr[i] > Y){
-            count++
+            count++;
         }   
     }
     return count;
@@ -144,9 +144,8 @@ function arrmenor(arr, Y) {
 // por el cuadrado del mismo valor (ej: [1,5,10,-2] será [1,25,100,4]).
 
 function cuadArr(arr) {
-    for(var i = 0; i <= arr.length; i++){
+    for (var i = 0; i <= arr.length; i++){
         arr[i] = arr[i] * arr[i];
     }
     return arr;
 }
-

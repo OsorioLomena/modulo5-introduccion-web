@@ -19,10 +19,25 @@ console.log(users[1].age);
 
 
 // 2. nombre del primer objeto
-console,log(users.[0].name)
+console.log(users[0].name)
 
 // 3.- nombre y la edad de cada usuario
 
 for (var i = 0; i <= users.length; i++){
-  console.log(usr.[i].name, "-", users[i].age);
+  console.log(user[i].name, "-", users[i].age);
 } 
+
+
+// ¿Cómo harías print/log del nombre y la edad de cada usuario utilizando un for loop?
+for (i = 0; i <= users.length; i ++) {
+  console.log(users[i].name, "-", users[i].age)
+}
+
+
+// ¿Cómo harías para imprimir el nombre de los mayores de edad?
+for (i = 0; i <= users.length; i ++) {
+  if (users[i].age >= 18){
+     console.log(users[i].name, "-", users[i].age)
+  }
+}
+
