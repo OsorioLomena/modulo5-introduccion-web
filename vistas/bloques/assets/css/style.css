@@ -2,55 +2,76 @@
 *{
     margin: 0px;
     padding: 0px;
-   }
-   #wrapper{
+    box-sizing: border-box;
+}
+.row {
+    margin: 20px;
+}
+.col {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 10px;
+}
+@media only screen and (max-width: 480px){
+    .sm-0 {
+        display: none;
+    }
+    .sm-4 {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 481px){
+    .med-0 {
+        display: none;
+    }
+    .med-2 {
+        width: 45%;
+    }
+    .med-4 {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1024px){
+    .lg-1 {
+        width: 23%;
+        display: inline-block;
+    }
+    .lg-one-third {
+        width: 31%;
+    }
+    .lg-3 {
+        width: 72%;
+    }
+    .lg-4 {
+        width: 100%;
+    }
+}
+#wrapper{
     width: 950px;
     background-color: silver;
     margin: 0px auto;
-   }
-   #header{
-    min-height: 150px;
+    padding: 20px;
+}
+#header{
+    height: 150px;
     background-color: green;
-    position: relative;
-    top: 15px;
-    margin: 15px;
-   }
-  
-   #navigation{
-    min-height: 300px;
-    width: 200px;
+}
+#navigation{
+    height: 300px;
     background-color: blue;
-    display: inline-block;
-    margin-left: 15px;
-    position: relative;
-    top: 15px;
-   
-   }
-   #main_content{
-    min-height: 400px;
-    width: 700px;
+}
+#main_content{
     background-color: red;
-    display: inline-block;
-    position: relative;
-    top: -85px;
-    margin-left: 15px;
-   
-   }
-   .subcontents{
-    min-height: 200px;
-    width: 210px;
-    background-color: yellow;
-    display: inline-block;
-    position: relative;
-    margin-right: 10px;
-    left: 15px;
-    top: 15px;
-   }
-   #advertisement{
-    min-height: 120px;
-    width: 660px;
-    background-color: purple;
-    position: relative;
-    left: 15px;
-    top: 40px;
-   }
+    padding: 12px;
+}
+    .subcontents{
+        height: 200px;
+        background-color: yellow;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    #advertisement{
+        height: 120px;
+        background-color: purple;
+        margin-top: 20px;
+    }
